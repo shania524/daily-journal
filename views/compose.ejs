@@ -1,0 +1,22 @@
+<%- include("partials/header") -%>
+<!-- <form action="/" method="post">
+<h1>Compose</h1>
+<input type="text" name="TextTitle">
+
+<textarea name="comp" col="80" row="5">write here</textarea>
+<button type="submit" name="publish">Publish</button>
+</form> -->
+<form action="/" method="post">
+    <div class="form-group">
+        <h1>COMPOSE</h1>
+      <label for="exampleInputEmail1">Title</label>
+      <input type="text" class="form-control" name="posttitle" id="exampleInputEmail1"  >
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">compose</label>
+      <textarea type="password" class="form-control" name="postbody" id="exampleInputPassword1"  rows="10"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+<%- include("partials/footer") -%>
